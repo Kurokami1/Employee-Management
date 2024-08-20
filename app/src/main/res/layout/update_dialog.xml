@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Name" />
+
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/txtSalary"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Salary" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnUpdate"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Update" />
+</LinearLayout>

@@ -9,7 +9,7 @@ import com.example.firebase.model.Employee_Model
 
 private lateinit var bindingEmp: EmpListItemBinding
 
-//
+
 class Employee_Adapter(private val ds:ArrayList<Employee_Model> ):RecyclerView.Adapter<Employee_Adapter.ViewHolder>() {
 //    class ViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView)
 //
